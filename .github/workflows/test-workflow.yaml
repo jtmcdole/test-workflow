@@ -8,7 +8,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - uses: jtmcdole/setup-flutter@9ea04e2f55ed50e64779fd85a53873c259188323
+      - uses: jtmcdole/setup-flutter@d868be1c3f142595f6aa55e471f615813a210793
 
       - name: Checkout code
         uses: actions/checkout@v4
@@ -16,5 +16,5 @@ jobs:
       - name: tests
         run: |
           flutter --version
-          flutter docotor
+          flutter doctor
 
