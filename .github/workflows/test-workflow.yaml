@@ -8,7 +8,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - uses: jtmcdole/setup-flutter@7b4ed21124cb564b4e8f1910a17233c8ea152010
+      - uses: jtmcdole/setup-flutter@803b605c7a10590fd3766a7ca28436d89c9522e7
 
       - name: Checkout code
         uses: actions/checkout@v4
