@@ -17,4 +17,5 @@ jobs:
         run: |
           flutter --version
           flutter doctor
-
+          flutter pub get
+          flutter test test
